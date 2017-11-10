@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# open vim on the left
-tmux new-session -d 'vim'
+tmux new-session -d
 
 # horizontal split with 15%
 tmux split-window -h -p 15
